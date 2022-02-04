@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ea090423-0b0c-4019-a3bb-80e23cb1a06b",
+    "name": "Mustang",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "e31ef9a8-141e-4d4f-b5b8-b207648c8c6f",
+    "name": "Roadster",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  }
+]
