@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "test": "mocha -w -parallel *.test.js",
+    "test:cov": "nyc mocha -parallel *.test.js"
+  },
+  "devDependencies": {
+    "mocha": "8",
+    "nyc": "15",
+    "supertest": "6"
+  },
+  "name": "aula04-covereage-e2e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
