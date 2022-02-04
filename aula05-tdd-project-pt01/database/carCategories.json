@@ -1,9 +1,11 @@
 {
-  "id": "68bea5e5-ebb8-4851-9ddf-edeadcb37d18",
-  "name": "Extended Cab Pickup",
+  "id": "d834bad6-464d-4ad6-b2db-67cc7b636eb3",
+  "name": "Convertible",
   "carIds": [
-    "ea090423-0b0c-4019-a3bb-80e23cb1a06b",
-    "e31ef9a8-141e-4d4f-b5b8-b207648c8c6f"
+    "43c8e148-86bb-4c68-a312-9d22638a2e74",
+    "6d1e5d1d-c088-46bc-8bc8-d36d6093ad65",
+    "53202949-21a4-429b-9e6f-c4b43bb1f948",
+    "3741f45e-c0f0-4b8b-b200-64c1b637ec75"
   ],
-  "price": "20.08"
+  "price": "99.81"
 }

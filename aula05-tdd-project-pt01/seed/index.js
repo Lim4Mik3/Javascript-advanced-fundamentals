@@ -8,20 +8,21 @@ const { join } = require("path");
 const { writeFile } = require("fs/promises");
 
 const seederBaseFolder = join(__dirname, "..", "database");
-const ITEMS_AMOUNT = 2;
+const ITEMS_AMOUNT = 4;
 
 const carCategory = new CarCategory({
-  id: faker.random.uuid(),
+  id: faker.datatype.uuid(),
   name: faker.vehicle.type(),
   carIds: [],
   price: faker.finance.amount(20, 100),
 });
 
 const cars = [];
+const customers = [];
 
 for (let i = 1; i <= ITEMS_AMOUNT; i++) {
   const car = new Car({
-    id: faker.random.uuid(),
+    id: faker.datatype.uuid(),
     name: faker.vehicle.model(),
     available: true,
     gasAvailable: true,
@@ -29,6 +30,14 @@ for (let i = 1; i <= ITEMS_AMOUNT; i++) {
   });
   carCategory.carIds.push(car.id);
   cars.push(car);
+
+  const customer = new Customer({
+    id: faker.datatype.uuid(),
+    name: faker.name.findName(),
+    age: faker.datatype.number({ min: 18, max: 50 }),
+  });
+
+  customers.push(customer);
 }
 
 const write = (filename, data) =>
@@ -37,4 +46,5 @@ const write = (filename, data) =>
 (async () => {
   write("cars.json", cars);
   write("carCategories.json", carCategory);
+  write("customers.json", customers);
 })();
