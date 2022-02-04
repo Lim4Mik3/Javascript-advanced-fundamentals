@@ -1,0 +1,30 @@
+[
+  {
+    "id": "58906346-2a3b-4f82-ae08-11b82ae965b8",
+    "name": "Land Cruiser",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "0569346c-0046-4731-8fca-b543d269e55c",
+    "name": "Escalade",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "8f03cc06-7be9-4ecf-a871-f12d8ec80094",
+    "name": "2",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "33bce15d-f0fc-45c9-9d0f-f89da294b38c",
+    "name": "XC90",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  }
+]
