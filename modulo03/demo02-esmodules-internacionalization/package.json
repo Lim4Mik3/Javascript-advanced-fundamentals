@@ -1,0 +1,16 @@
+{
+  "name": "demo02-esmodules-internacionalization",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --ignore database.json --experimental-json-modules --exec node src/index.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "4",
+    "chalk-table": "1",
+    "draftlog": "1",
+    "nodemon": "^2.0.15"
+  }
+}
